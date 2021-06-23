@@ -1,9 +1,12 @@
 import React from 'react';
 
-const Cardjob = () => {
+const Cardjob = (props) => {
+
+    const {job} = props;
+
     return (
         <div className="card">
-
+            <p>{job.description}</p>
         </div>
     );
 };
