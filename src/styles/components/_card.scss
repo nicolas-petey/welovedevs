@@ -4,9 +4,26 @@
   margin: 20px 15px;
   max-width: 340px !important;
   border-radius: 20px;
+  background-color: rgba(11, 15, 23, 0.93);
 
   .card-title{
     font-size: 20px;
-
   }
+  .card-text{
+    font-size: 15px;
+  }
+
+  input, textarea{
+    margin-top: 10px;
+    background-color: rgba(11, 15, 23, 0.93);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  input:focus, textarea:focus{
+    border-color: rgba(0, 83, 255, 0.93);
+  }
+
 }
